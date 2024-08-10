@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    place-content: center;
+}
+
+label {
+    padding-bottom: .5rem;
+}
+
+select, button {
+    padding: 14px;
+    margin-top: .6rem;
+    margin-bottom: .6rem;
+}
+
+select:focus, input:hover {
+    outline-color: rgb(40, 131, 108);
+}
+
+option {
+    margin-right: -25rem;
+    color: rgb(40, 131, 108);
+    background-color: rgba(0, 0, 0, 0.882);
+    font-family: Arial, sans-serif;
+}

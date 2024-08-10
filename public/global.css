@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    outline: none;
+    cursor: pointer;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.918);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.btn {
+    background-color: rgb(40, 131, 108);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    border: none;
+
+    box-shadow: 0px 0px 2px;
+}
+
+select {
+    border-radius: 10px;
+}
+
+.btn:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+form {
+    padding: 10px;
+}
+
+.container > .row {
+    display: flex;
+    flex-direction: column;
+
+    padding: 5px;
+    width: 25rem;
+}
+
+
+input {
+    padding: 14px;
+    margin-top: .6rem;
+    margin-bottom: .6rem;
+    border-radius: 10px;
+    border: none;
+
+    box-shadow: 0px 0px 1px;
+}
+
+select:focus, input:focus {
+    outline-color: rgb(40, 131, 108);
+}

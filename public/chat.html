@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat</title>
+
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <button type="button" class="logout btn" id="logout">
+                Logout
+            </button>
+            <div id="username">
+            </div>
+
+            <div id="chat_container">
+                <div class="messages" id="messages">
+                    
+                </div>
+            </div> 
+        </div>
+
+        <input type="text" class="form-control" id="message_input" placeholder="Digite sua mensagem">
+    </div>
+</body>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="chat.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js" integrity="sha512-bwD3VD/j6ypSSnyjuaURidZksoVx3L1RPvTkleC48SbHCZsemT3VKMD39KknPnH728LLXVNTisESIBOAb5/W0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</html>
